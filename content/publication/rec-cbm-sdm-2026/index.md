@@ -8,7 +8,7 @@ authors:
 - lpyting
 - Ying-Chih Chen
 - Huan Liu
-date: '2026-01-01'
+date: '2026-04-24'
 publication_types:
 - paper-conference
 publication: SIAM International Conference on Data Mining (SDM 2026); AI4Good Workshop at ICML 2026
