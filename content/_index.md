@@ -58,14 +58,26 @@ sections:
         [View All Members](/people/)
 
 
-  - block: markdown
+  
+  - block: collection
     id: publications
     content:
       title: Publications
-      text: |
-        Explore our research publications.
+      count: 5
+      offset: 0
+      order: desc
+      filters:
+        folders:
+          - publication
+    design:
+      view: compact
+      columns: '1'
 
-        [View All Publications](/publication/)
+  - block: markdown
+    content:
+      text: |
+        [View All Publications →](/publication/)
+
 
   - block: markdown
     id: news
