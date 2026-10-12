@@ -87,18 +87,28 @@ sections:
       columns: '1'
 
 
+  
   - block: markdown
     id: contact
     content:
       title: Contact
       text: |
-        NYCU KIR Lab
+        **NYCU KIR Lab**
 
-        Department of Computer Science
+        Knowledge Discovery and Reasoning Laboratory
 
+        Department of Computer Science,
         National Yang Ming Chiao Tung University
 
-        Taiwan
+        **Location:** Room EC120, Guangfu Campus
 
-        Contact details will be added soon.
+        **Address:** No. 1001, University Road,
+        Hsinchu City 300093, Taiwan
+
+        **Email:** [lpyting@cs.nycu.edu.tw](mailto:lpyting@cs.nycu.edu.tw)
+
+        **Phone:** +886-3-571-2121 ext. 54744
+
+        **Principal Investigator:** [Lo Pang-Yun Ting](https://lpyting.github.io/)
+
 ---
