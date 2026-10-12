@@ -8,14 +8,15 @@ sections:
   - block: hero
     content:
       title: |
-        Wowchemy
-        Research Group
+        NYCU KIR Lab
       image:
         filename: welcome.jpg
       text: |
-        <br>
-        
-        The **Wowchemy Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
+        Welcome to the official website of **NYCU KIR Lab**.
+
+        We are a research laboratory in the
+        Department of Computer Science at
+        National Yang Ming Chiao Tung University (NYCU), Taiwan.
   
   - block: collection
     content:
