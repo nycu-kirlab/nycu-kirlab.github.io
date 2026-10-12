@@ -26,14 +26,27 @@ sections:
         Research topics and ongoing projects
         will be introduced here.
 
-  - block: markdown
+  
+  - block: people
     id: people
     content:
       title: People
-      text: |
-        Meet the members of NYCU KIR Lab.
+      user_groups:
+        - Principal Investigators
+        - Grad Students
+        - Alumni
+      sort_by: Params.last_name
+      sort_ascending: true
+    design:
+      show_interests: true
+      show_role: true
+      show_social: true
 
+  - block: markdown
+    content:
+      text: |
         [View All Members](/people/)
+
 
   - block: markdown
     id: publications
