@@ -1,23 +1,25 @@
 
-# Main navigation menu for NYCU KIR Lab
-
 main:
   - name: Home
-    url: /
+    url: /#home
     weight: 10
 
-  - name: People
-    url: /people/
+  - name: Research
+    url: /#research
     weight: 20
 
-  - name: Publications
-    url: /publication/
+  - name: People
+    url: /#people
     weight: 30
 
-  - name: News
-    url: /post/
+  - name: Publications
+    url: /#publications
     weight: 40
 
-  - name: Contact
-    url: /contact/
+  - name: News
+    url: /#news
     weight: 50
+
+  - name: Contact
+    url: /#contact
+    weight: 60
