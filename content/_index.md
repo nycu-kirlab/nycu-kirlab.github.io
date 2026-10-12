@@ -95,7 +95,7 @@ sections:
       text: |
         **NYCU KIR Lab**
 
-        Knowledge Discovery and Reasoning Laboratory
+        Knowledge Inference, Discovery and Reasoning Laboratory
 
         Department of Computer Science,
         National Yang Ming Chiao Tung University
