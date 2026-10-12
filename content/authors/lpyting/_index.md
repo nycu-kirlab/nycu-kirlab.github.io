@@ -1,0 +1,44 @@
+
+---
+title: Lo Pang-Yun Ting
+first_name: Lo Pang-Yun
+last_name: Ting
+
+authors:
+  - lpyting
+
+superuser: false
+
+role: Assistant Professor
+
+organizations:
+  - name: National Yang Ming Chiao Tung University
+    url: https://www.nycu.edu.tw/
+
+bio: Assistant Professor in the Department of Computer Science at NYCU.
+
+interests:
+  - Data Mining
+  - Reinforcement Learning
+  - Knowledge Graph Embedding and Reasoning
+  - AI in Healthcare
+  - Time Series Analysis
+
+social:
+  - icon: envelope
+    icon_pack: fas
+    link: mailto:lpyting@cs.nycu.edu.tw
+
+email: lpyting@cs.nycu.edu.tw
+
+user_groups:
+  - Principal Investigators
+---
+
+Lo Pang-Yun Ting (丁羅邦芸) is an Assistant Professor in the Department of Computer Science at National Yang Ming Chiao Tung University.
+
+Research interests include data mining, reinforcement learning, knowledge graph embedding and reasoning, AI in healthcare, and time series analysis.
+
+[Personal Website](https://lpyting.github.io/)
+
+[NYCU Faculty Profile](https://www.cs.nycu.edu.tw/members/detail/lpyting)
