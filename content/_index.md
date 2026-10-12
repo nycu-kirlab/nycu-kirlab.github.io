@@ -79,13 +79,23 @@ sections:
         [View All Publications →](/publication/)
 
 
-  - block: markdown
+  - block: collection
     id: news
     content:
-      title: News
+      title: Latest News
+      count: 3
+      offset: 0
+      order: desc
+      page_type: post
+    design:
+      view: compact
+      columns: '1'
+
+  - block: markdown
+    content:
       text: |
-        Latest announcements and updates
-        from NYCU KIR Lab will appear here.
+        [View All News →](/post/)
+
 
   - block: markdown
     id: contact
