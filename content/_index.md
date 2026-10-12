@@ -18,13 +18,23 @@ sections:
         Department of Computer Science at
         National Yang Ming Chiao Tung University (NYCU), Taiwan.
 
+  
   - block: markdown
     id: research
     content:
       title: Research
       text: |
-        Research topics and ongoing projects
-        will be introduced here.
+        Our research interests include:
+
+        - **Data Mining:** Discovering meaningful patterns and knowledge from complex datasets.
+
+        - **Reinforcement Learning:** Developing intelligent decision-making methods through interaction and feedback.
+
+        - **Knowledge Graph Embedding and Reasoning:** Learning structured knowledge representations and exploring relationships for intelligent reasoning.
+
+        - **AI in Healthcare:** Applying AI techniques to healthcare data and clinical decision support.
+
+        - **Time Series Analysis:** Modeling temporal dependencies and extracting insights from sequential data.
 
   
   - block: people
