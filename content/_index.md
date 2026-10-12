@@ -73,11 +73,6 @@ sections:
       view: compact
       columns: '1'
 
-  - block: markdown
-    content:
-      text: |
-        [View All Publications →](/publication/)
-
 
   - block: collection
     id: news
@@ -90,11 +85,6 @@ sections:
     design:
       view: compact
       columns: '1'
-
-  - block: markdown
-    content:
-      text: |
-        [View All News →](/post/)
 
 
   - block: markdown
