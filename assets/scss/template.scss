@@ -33,3 +33,28 @@ h1, h2, h3 {
     padding-bottom: 48px;
   }
 }
+
+
+/* KIR Lab - Navbar Branding */
+
+#navbar-main .navbar-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  white-space: nowrap;
+}
+
+#navbar-main .navbar-brand::after {
+  content: "NYCU KIR Lab";
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: inherit;
+}
+
+/* Smaller branding on mobile */
+@media (max-width: 575px) {
+  #navbar-main .navbar-brand::after {
+    font-size: 0.9rem;
+  }
+}
