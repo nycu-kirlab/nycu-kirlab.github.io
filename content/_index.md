@@ -9,14 +9,14 @@ sections:
     content:
       title: |
         NYCU KIR Lab
-      image:
-        filename: welcome.jpg
       text: |
-        Welcome to the official website of **NYCU KIR Lab**.
+        **Knowledge Inference, Discovery and Reasoning Laboratory**
 
-        We are a research laboratory in the
-        Department of Computer Science at
-        National Yang Ming Chiao Tung University (NYCU), Taiwan.
+        Advancing research in data mining, reinforcement learning,
+        knowledge graphs, AI in healthcare, and time series analysis.
+
+        Department of Computer Science,
+        National Yang Ming Chiao Tung University, Taiwan.
 
   
   - block: markdown
