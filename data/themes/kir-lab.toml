@@ -1,0 +1,32 @@
+
+name = "KIR Lab"
+
+[light]
+  primary = "#17365D"
+
+  link = "#0D766E"
+  link_hover = "#095D57"
+
+  menu_primary = "#FFFFFF"
+  menu_text = "#334155"
+  menu_text_active = "#0D766E"
+  menu_title = "#17365D"
+
+  background = "#FFFFFF"
+  home_section_odd = "#FFFFFF"
+  home_section_even = "#F1F5F9"
+
+[dark]
+  primary = "#93C5FD"
+
+  link = "#5EEAD4"
+  link_hover = "#99F6E4"
+
+  menu_primary = "#0F172A"
+  menu_text = "#E2E8F0"
+  menu_text_active = "#5EEAD4"
+  menu_title = "#F8FAFC"
+
+  background = "#0F172A"
+  home_section_odd = "#0F172A"
+  home_section_even = "#17253B"
