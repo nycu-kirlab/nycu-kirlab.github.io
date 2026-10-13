@@ -17,9 +17,9 @@ marketing:
   seo:
     site_type: Organization
     local_business_type: ''
-    org_name: ''
-    description: 'A highly-customizable Hugo research group theme powered by Wowchemy website builder.'
-    twitter: 'GetResearchDev'
+    org_name: 'NYCU KIR Lab'
+    description: 'NYCU KIR Lab conducts research in data mining, reinforcement learning, knowledge graphs, AI in healthcare, and time series analysis.'
+    twitter: ''
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -43,14 +43,13 @@ header:
 
 # Site footer
 
+
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} NYCU KIR Lab.'
     license:
-      enable: true
-      allow_derivatives: false
-      share_alike: true
-      allow_commercial: false
+      enable: false
+
 
 # Localization
 
