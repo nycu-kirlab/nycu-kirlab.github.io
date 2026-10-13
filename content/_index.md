@@ -19,22 +19,38 @@ sections:
         National Yang Ming Chiao Tung University, Taiwan.
 
   
-  - block: markdown
+  
+  - block: features
     id: research
     content:
       title: Research
-      text: |
-        Our research interests include:
+      text: "Our research interests include:"
+      items:
+        - name: Data Mining
+          description: Discovering meaningful patterns and knowledge from complex datasets.
+          icon: search
+          icon_pack: fas
 
-        - **Data Mining:** Discovering meaningful patterns and knowledge from complex datasets.
+        - name: Reinforcement Learning
+          description: Developing intelligent decision-making methods through interaction and feedback.
+          icon: robot
+          icon_pack: fas
 
-        - **Reinforcement Learning:** Developing intelligent decision-making methods through interaction and feedback.
+        - name: Knowledge Graph Embedding and Reasoning
+          description: Learning structured knowledge representations and exploring relationships for intelligent reasoning.
+          icon: project-diagram
+          icon_pack: fas
 
-        - **Knowledge Graph Embedding and Reasoning:** Learning structured knowledge representations and exploring relationships for intelligent reasoning.
+        - name: AI in Healthcare
+          description: Applying AI techniques to healthcare data and clinical decision support.
+          icon: heartbeat
+          icon_pack: fas
 
-        - **AI in Healthcare:** Applying AI techniques to healthcare data and clinical decision support.
+        - name: Time Series Analysis
+          description: Modeling temporal dependencies and extracting insights from sequential data.
+          icon: chart-line
+          icon_pack: fas
 
-        - **Time Series Analysis:** Modeling temporal dependencies and extracting insights from sequential data.
 
   
   - block: people
