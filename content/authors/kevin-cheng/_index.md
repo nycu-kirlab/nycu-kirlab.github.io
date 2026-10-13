@@ -35,7 +35,7 @@ social: []
 
 # People page classification
 user_groups:
-  - "PhD Students"
+  - "Master Students"
 ---
 
 I am a graduate student at NYCU KIR Lab,
