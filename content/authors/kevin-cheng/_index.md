@@ -1,15 +1,15 @@
 
 ---
 # Display name
-title: "Student Name"
+title: "Kevin Cheng"
 
 # Personal information
-first_name: "First Name"
-last_name: "Last Name"
+first_name: "Kevin"
+last_name: "Cheng"
 
 # Website role
 superuser: false
-role: "Master's Student"
+role: "PhD Student"
 
 # Affiliation
 organizations:
@@ -35,7 +35,7 @@ social: []
 
 # People page classification
 user_groups:
-  - "Grad Students"
+  - "PhD Students"
 ---
 
 I am a graduate student at NYCU KIR Lab,
