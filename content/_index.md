@@ -42,8 +42,9 @@ sections:
     content:
       title: People
       user_groups:
-        - Principal Investigators
-        - Grad Students
+        - Principal Investigator
+        - Master Students
+        - PhD Students
         - Alumni
       sort_by: Params.last_name
       sort_ascending: true
