@@ -9,7 +9,7 @@ last_name: "Cheng"
 
 # Website role
 superuser: false
-role: "PhD Student"
+role: "Master Student"
 
 # Affiliation
 organizations:
