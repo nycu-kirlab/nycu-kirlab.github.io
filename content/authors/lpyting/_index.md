@@ -32,7 +32,7 @@ social:
 email: lpyting@cs.nycu.edu.tw
 
 user_groups:
-  - Principal Investigators
+  - Principal Investigator
 ---
 
 Lo Pang-Yun Ting (丁羅邦芸) is an Assistant Professor in the Department of Computer Science at National Yang Ming Chiao Tung University.
