@@ -6,8 +6,8 @@
 # Appearance
 
 appearance:
-  theme_day: minimal
-  theme_night:
+  theme_day: kir-lab
+  theme_night: kir-lab
   font: native
   font_size: L
 
