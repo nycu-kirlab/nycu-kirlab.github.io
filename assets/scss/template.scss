@@ -95,3 +95,10 @@ h1, h2, h3 {
     font-size: 1.1rem;
   }
 }
+
+
+/* Center Research feature items */
+#research .row.featurette {
+  justify-content: center;
+}
+
