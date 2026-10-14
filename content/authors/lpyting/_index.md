@@ -29,6 +29,12 @@ social:
   - icon: envelope
     icon_pack: fas
     link: mailto:lpyting@cs.nycu.edu.tw
+  - icon: google-scholar
+    icon_pack: ai
+    link: https://scholar.google.com/citations?user=iOzucagAAAAJ&hl=en&authuser=4
+  - icon: linkedin
+    icon_pack: fab
+    link: https://www.linkedin.com/in/lo-pang-yun-ting-teila-5a7ab2144/
 
 email: lpyting@cs.nycu.edu.tw
 
