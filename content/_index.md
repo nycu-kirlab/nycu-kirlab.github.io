@@ -69,13 +69,6 @@ sections:
       show_role: true
       show_social: true
 
-  - block: markdown
-    content:
-      text: |
-        [View All Members](/people/)
-
-
-  
   - block: collection
     id: publications
     content:
