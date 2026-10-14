@@ -105,19 +105,12 @@ sections:
       text: |
         **NYCU KIR Lab**
 
-        Knowledge Inference, Reasoning and Discovery Laboratory
-
-        Department of Computer Science,
-        National Yang Ming Chiao Tung University
-
         **Location:** Room EC120, Guangfu Campus
 
         **Address:** No. 1001, University Road,
         Hsinchu City 300093, Taiwan
 
         **Email:** [lpyting@cs.nycu.edu.tw](mailto:lpyting@cs.nycu.edu.tw)
-
-        **Phone:** +886-3-571-2121 ext. 54744
 
         **Lab Supervisor:** [Lo Pang-Yun Ting](https://lpyting.github.io/)
 
