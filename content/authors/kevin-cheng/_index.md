@@ -37,10 +37,3 @@ social: []
 user_groups:
   - "Master Students"
 ---
-
-I am a graduate student at NYCU KIR Lab,
-Department of Computer Science,
-National Yang Ming Chiao Tung University.
-
-My research interests include machine learning
-and time series analysis.
