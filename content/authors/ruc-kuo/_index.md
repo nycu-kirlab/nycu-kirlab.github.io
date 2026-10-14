@@ -43,4 +43,4 @@ Department of Computer Science,
 National Yang Ming Chiao Tung University.
 
 My research interests include machine learning
-and time series analysis.
+and world model.
