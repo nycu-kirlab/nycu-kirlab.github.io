@@ -1,0 +1,28 @@
+/* Use one font stack for site text, including controls and code blocks. */
+/* Leave icon font classes unchanged so their glyphs continue to render. */
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.navbar-light,
+.section-subheading,
+.sidebar-search-shortcut,
+button,
+input,
+select,
+textarea,
+pre,
+code,
+kbd,
+samp {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+/* Bootstrap's utility uses !important, so match it for this override. */
+.text-monospace {
+  font-family: "Trebuchet MS", Helvetica, sans-serif !important;
+}

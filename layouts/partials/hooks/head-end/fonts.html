@@ -1,0 +1,2 @@
+{{- $fonts := resources.Get "css/fonts.css" | minify | fingerprint -}}
+<link rel="stylesheet" href="{{ $fonts.RelPermalink }}" integrity="{{ $fonts.Data.Integrity }}" crossorigin="anonymous">
