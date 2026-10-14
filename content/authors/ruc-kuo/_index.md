@@ -22,7 +22,7 @@ bio: "Graduate student at NYCU KIR Lab."
 # Research interests
 interests:
   - "Machine Learning"
-  - "World Model"
+  - "World Models"
 
 # Social links (optional)
 social: []
@@ -43,4 +43,4 @@ Department of Computer Science,
 National Yang Ming Chiao Tung University.
 
 My research interests include machine learning
-and world model.
+and world models.
