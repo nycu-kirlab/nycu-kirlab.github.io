@@ -10,7 +10,7 @@ sections:
       title: |
         NYCU KIR Lab
       text: |
-        **Knowledge Inference, Discovery and Reasoning Laboratory**
+        **Knowledge Inference, Reasoning and Discovery Laboratory**
 
         Advancing research in data mining, reinforcement learning,
         knowledge graphs, AI in healthcare, and time series analysis.
@@ -112,7 +112,7 @@ sections:
       text: |
         **NYCU KIR Lab**
 
-        Knowledge Inference, Discovery and Reasoning Laboratory
+        Knowledge Inference, Reasoning and Discovery Laboratory
 
         Department of Computer Science,
         National Yang Ming Chiao Tung University
