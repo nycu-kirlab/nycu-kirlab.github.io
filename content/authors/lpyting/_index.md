@@ -10,6 +10,7 @@ authors:
 superuser: false
 
 role: Assistant Professor
+external_link: https://lpyting.github.io/
 
 organizations:
   - name: National Yang Ming Chiao Tung University
@@ -32,5 +33,5 @@ social:
 email: lpyting@cs.nycu.edu.tw
 
 user_groups:
-  - Principal Investigator
+  - Lab Supervisor
 ---
