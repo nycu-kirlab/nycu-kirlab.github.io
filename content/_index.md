@@ -58,7 +58,7 @@ sections:
     content:
       title: People
       user_groups:
-        - Principal Investigator
+        - Lab Supervisor
         - Master Students
         - PhD Students
         - Alumni
@@ -119,6 +119,6 @@ sections:
 
         **Phone:** +886-3-571-2121 ext. 54744
 
-        **Principal Investigator:** [Lo Pang-Yun Ting](https://lpyting.github.io/)
+        **Lab Supervisor:** [Lo Pang-Yun Ting](https://lpyting.github.io/)
 
 ---
