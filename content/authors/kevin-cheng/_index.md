@@ -1,10 +1,10 @@
 
 ---
 # Display name
-title: "Kevin Cheng"
+title: "Kai Ting Cheng"
 
 # Personal information
-first_name: "Kevin"
+first_name: "Kai Ting"
 last_name: "Cheng"
 
 # Website role
@@ -35,5 +35,5 @@ social: []
 
 # People page classification
 user_groups:
-  - "Master Students"
+  - "Class 2026"
 ---

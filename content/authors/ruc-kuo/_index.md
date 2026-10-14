@@ -1,10 +1,10 @@
 
 ---
 # Display name
-title: "Ruc Kuo"
+title: "Chia Han Kuo"
 
 # Personal information
-first_name: "Ruc"
+first_name: "Chia Han"
 last_name: "Kuo"
 
 # Website role
@@ -35,5 +35,5 @@ social: []
 
 # People page classification
 user_groups:
-  - "Master Students"
+  - "Class 2026"
 ---

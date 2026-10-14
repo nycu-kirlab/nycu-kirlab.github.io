@@ -59,7 +59,7 @@ sections:
       title: People
       user_groups:
         - Lab Supervisor
-        - Master Students
+        - Class 2026
         - PhD Students
         - Alumni
       sort_by: Params.last_name
