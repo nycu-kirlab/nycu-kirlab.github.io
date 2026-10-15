@@ -1,7 +1,7 @@
 
 ---
 # Display name
-title: "Chen Wei Lin"
+title: "Chen-Wei Lin"
 
 # Personal information
 first_name: "Chen Wei"
