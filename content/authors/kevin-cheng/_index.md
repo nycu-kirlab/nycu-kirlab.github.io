@@ -35,5 +35,5 @@ social: []
 
 # People page classification
 user_groups:
-  - "Class 2026"
+  - "2026"
 ---
