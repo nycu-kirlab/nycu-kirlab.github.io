@@ -12,7 +12,11 @@ sections:
       text: |
         **Knowledge Inference, Reasoning and Discovery Laboratory**
 
-        Advancing AI through knowledge inference and knowledge reasoning.
+        NYCU KIR Lab focuses on advancing artificial intelligence through Knowledge Inference and Knowledge Reasoning.
+
+        We investigate how intelligent systems can uncover hidden knowledge from complex data, understand relationships, and combine evidence to derive meaningful conclusions.
+
+        Our research brings together knowledge graphs, large language models, and reinforcement learning to develop reliable and interpretable AI methods for real-world applications.
 
         Department of Computer Science,
         National Yang Ming Chiao Tung University, Taiwan.
