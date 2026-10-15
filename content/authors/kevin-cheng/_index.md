@@ -1,7 +1,7 @@
 
 ---
 # Display name
-title: "Kai Ting Cheng"
+title: "Kai-Ting, Cheng"
 
 # Personal information
 first_name: "Kai Ting"
