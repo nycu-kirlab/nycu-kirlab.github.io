@@ -12,8 +12,7 @@ sections:
       text: |
         **Knowledge Inference, Reasoning and Discovery Laboratory**
 
-        Advancing research in data mining, reinforcement learning,
-        knowledge graphs, AI in healthcare, and time series analysis.
+        Advancing AI through knowledge inference and knowledge reasoning.
 
         Department of Computer Science,
         National Yang Ming Chiao Tung University, Taiwan.
