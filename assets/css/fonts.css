@@ -47,3 +47,17 @@ h6,
 #navbar-main .navbar-brand::after {
   font-size: 17px !important;
 }
+
+/* Align profile details and photos with the start of each group row. */
+.people-widget {
+  text-align: left;
+}
+
+.people-widget .avatar {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.people-widget .network-icon {
+  justify-content: flex-start;
+}
