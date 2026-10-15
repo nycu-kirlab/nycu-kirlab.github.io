@@ -27,7 +27,7 @@ samp {
   font-family: "Trebuchet MS", Helvetica, sans-serif !important;
 }
 
-/* Keep titles at the same size across theme components and screen sizes. */
+/* Keep titles uniformly sized and bold across components and screen sizes. */
 h1,
 h2,
 h3,
@@ -45,7 +45,8 @@ h6,
 .section-subheading,
 .navbar-brand,
 #navbar-main .navbar-brand::after {
-  font-size: 17px !important;
+  font-size: 18px !important;
+  font-weight: 700 !important;
 }
 
 /* Align profile details and photos with the start of each group row. */
