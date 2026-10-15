@@ -20,39 +20,51 @@ sections:
 
   
   
-  - block: features
+  - block: research-map
     id: research
     content:
-      title: Research
-      text: "Our research interests include:"
+      title: Research Area
       items:
-        - name: Data Mining
-          description: Discovering meaningful patterns and knowledge from complex datasets.
-          icon: search
-          icon_pack: fas
+        - name: Reasoning & Explainable AI
+          icon: "🧠"
+          tone: mint
+          description: Advancing interpretable and knowledge-grounded AI reasoning through large language models, graph-based representations, and explainability techniques.
+          branches:
+            - label: Knowledge Graph Embeddings & Reasoning
+            - label: LLM Reasoning
+            - label: GraphRAG
+            - label: Concept Bottleneck Models
+            - label: Model Explainability & Interpretability
 
-        - name: Reinforcement Learning
-          description: Developing intelligent decision-making methods through interaction and feedback.
-          icon: robot
-          icon_pack: fas
+        - name: World Models & Reinforcement Learning
+          icon: "🌍"
+          tone: lavender
+          description: Developing adaptive AI systems that learn representations of dynamic environments, reason across modalities, and improve decision-making through reinforcement learning.
+          branches:
+            - label: Multi-domain & Multi-modal World Modeling
+            - label: Applied Reinforcement Learning
+            - label: RL-Enhanced LLMs
 
-        - name: Knowledge Graph Embedding and Reasoning
-          description: Learning structured knowledge representations and exploring relationships for intelligent reasoning.
-          icon: project-diagram
-          icon_pack: fas
+        - name: AI for Real-World Systems
+          icon: "🏙️"
+          tone: peach
+          description: "Bridging AI research and practical applications through intelligent modeling, prediction, and control of complex real-world systems, including smart cities and healthcare."
+          branches:
+            - label: Smart Cities
+              topics:
+                - Time-Series Modeling
+                - Intelligent Control
+            - label: AI for Healthcare
+              topics:
+                - Clinical NLP
+                - Graph-based EHR Analysis
+                - Early Warning System
+            - label: Real-Time AI
+              topics:
+                - Small Language Models
+                - Dynamic Graph Modeling
+                - Multi-Agent RL Control
 
-        - name: AI in Healthcare
-          description: Applying AI techniques to healthcare data and clinical decision support.
-          icon: heartbeat
-          icon_pack: fas
-
-        - name: Time Series Analysis
-          description: Modeling temporal dependencies and extracting insights from sequential data.
-          icon: chart-line
-          icon_pack: fas
-
-
-  
   - block: people
     id: people
     content:

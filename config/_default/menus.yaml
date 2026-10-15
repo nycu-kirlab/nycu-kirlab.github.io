@@ -4,7 +4,7 @@ main:
     url: /#home
     weight: 10
 
-  - name: Research
+  - name: Research Area
     url: /#research
     weight: 20
 
