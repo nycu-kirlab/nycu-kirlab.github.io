@@ -11,6 +11,7 @@ last_name: "Lin"
 # Website role
 superuser: false
 role: "Master Student"
+external_link: https://github.com/whgwhwfh
 
 # Affiliation
 organizations:
@@ -25,14 +26,12 @@ interests:
   - "Machine Learning"
   - "Concept Bottleneck Models"
 
-# Social links (optional)
-social: []
-#  - icon: envelope
-#    icon_pack: fas
-#    link: "mailto:example@nycu.edu.tw"
-#  - icon: github
-#    icon_pack: fab
-#    link: "https://github.com/username"
+social:
+  - icon: envelope
+    icon_pack: fas
+    link: mailto:chenweilin497@gmail.com
+
+email: chenweilin497@gmail.com
 
 # People page classification
 user_groups:

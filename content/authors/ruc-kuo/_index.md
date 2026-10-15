@@ -11,6 +11,7 @@ last_name: "Kuo"
 # Website role
 superuser: false
 role: "Master Student"
+external_link: https://github.com/ruccccc
 
 # Affiliation
 organizations:
@@ -25,14 +26,12 @@ interests:
   - "Machine Learning"
   - "World Models"
 
-# Social links (optional)
-social: []
-#  - icon: envelope
-#    icon_pack: fas
-#    link: "mailto:example@nycu.edu.tw"
-#  - icon: github
-#    icon_pack: fab
-#    link: "https://github.com/username"
+social:
+  - icon: envelope
+    icon_pack: fas
+    link: mailto:ruckuo@gmail.com
+
+email: ruckuo@gmail.com
 
 # People page classification
 user_groups:
