@@ -2,6 +2,7 @@
 ---
 # Display name
 title: "Chen-Wei Lin"
+chinese_name: 林澄緯
 
 # Personal information
 first_name: "Chen Wei"

@@ -1,6 +1,7 @@
 
 ---
 title: Lo Pang-Yun Ting
+chinese_name: 丁羅邦芸
 first_name: Lo Pang-Yun
 last_name: Ting
 

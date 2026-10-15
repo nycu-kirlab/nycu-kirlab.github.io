@@ -2,6 +2,7 @@
 ---
 # Display name
 title: "Kai-Ting Cheng"
+chinese_name: 鄭楷庭
 
 # Personal information
 first_name: "Kai Ting"

@@ -2,6 +2,7 @@
 ---
 # Display name
 title: "Chia-Han Kuo"
+chinese_name: 郭佳翰
 
 # Personal information
 first_name: "Chia Han"
