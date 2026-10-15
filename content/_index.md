@@ -70,21 +70,6 @@ sections:
       show_social: true
 
   - block: collection
-    id: publications
-    content:
-      title: Publications
-      count: 5
-      offset: 0
-      order: desc
-      filters:
-        folders:
-          - publication
-    design:
-      view: compact
-      columns: '1'
-
-
-  - block: collection
     id: news
     content:
       title: Latest News

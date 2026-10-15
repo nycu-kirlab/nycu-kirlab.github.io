@@ -26,3 +26,24 @@ samp {
 .text-monospace {
   font-family: "Trebuchet MS", Helvetica, sans-serif !important;
 }
+
+/* Keep titles at the same size across theme components and screen sizes. */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+.article-title,
+.article-title a,
+.section-subheading,
+.navbar-brand,
+#navbar-main .navbar-brand::after {
+  font-size: 17px !important;
+}

@@ -9,14 +9,14 @@ authors:
 
 superuser: false
 
-role: Assistant Professor
+role: Faculty
 external_link: https://lpyting.github.io/
 
 organizations:
   - name: National Yang Ming Chiao Tung University
     url: https://www.nycu.edu.tw/
 
-bio: Assistant Professor in the Department of Computer Science at NYCU.
+bio: Faculty member in the Department of Computer Science at NYCU.
 
 interests:
   - Data Mining
