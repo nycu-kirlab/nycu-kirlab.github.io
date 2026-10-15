@@ -1,7 +1,7 @@
 
 ---
 # Display name
-title: "Chia Han Kuo"
+title: "Chia-Han Kuo"
 
 # Personal information
 first_name: "Chia Han"
