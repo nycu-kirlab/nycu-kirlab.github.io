@@ -27,6 +27,12 @@ samp {
   font-family: "Trebuchet MS", Helvetica, sans-serif !important;
 }
 
+/* Standardize text size while preserving decorative icon sizing. */
+body,
+body :where(*:not(i, svg, svg *, .icon, .icon *)) {
+  font-size: 18px !important;
+}
+
 /* Keep titles uniformly sized and bold across components and screen sizes. */
 h1,
 h2,
@@ -47,6 +53,13 @@ h6,
 #navbar-main .navbar-brand::after {
   font-size: 20px !important;
   font-weight: 700 !important;
+}
+
+/* Links and other text inside titles follow the title's typography. */
+:is(h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6,
+    .article-title, .section-subheading, .navbar-brand) :where(*) {
+  font-size: inherit !important;
+  font-weight: inherit !important;
 }
 
 /* Align profile details and photos with the start of each group row. */
