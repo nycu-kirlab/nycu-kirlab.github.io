@@ -11,6 +11,7 @@ last_name: "Cheng"
 # Website role
 superuser: false
 role: "Master Student"
+external_link: https://github.com/kevincheng0906
 
 # Affiliation
 organizations:
@@ -25,14 +26,12 @@ interests:
   - "Machine Learning"
   - "Time Series Analysis"
 
-# Social links (optional)
-social: []
-#  - icon: envelope
-#    icon_pack: fas
-#    link: "mailto:example@nycu.edu.tw"
-#  - icon: github
-#    icon_pack: fab
-#    link: "https://github.com/username"
+social:
+  - icon: envelope
+    icon_pack: fas
+    link: mailto:ktcheng.cs15@nycu.edu.tw
+
+email: ktcheng.cs15@nycu.edu.tw
 
 # People page classification
 user_groups:
