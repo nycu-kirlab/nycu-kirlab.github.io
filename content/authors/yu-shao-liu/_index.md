@@ -5,7 +5,7 @@ first_name: Yu-Shao
 last_name: Liu
 
 superuser: false
-role: PhD Student
+role: PhD Student (Co-advised)
 external_link: https://github.com/AilurusUmbra
 
 organizations:
