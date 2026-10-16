@@ -18,10 +18,6 @@ sections:
 
         Department of Computer Science,
         National Yang Ming Chiao Tung University, Taiwan.
-    design:
-      background:
-        color: "#41566B"
-        text_color_light: true
 
   
   - block: research-image
