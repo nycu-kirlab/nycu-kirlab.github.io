@@ -21,50 +21,12 @@ sections:
 
   
   
-  - block: research-map
+  - block: research-image
     id: research
     content:
       title: Research Area
-      items:
-        - name: Reasoning & Explainable AI
-          icon: "🧠"
-          tone: mint
-          description: Advancing interpretable and knowledge-grounded AI reasoning through large language models, graph-based representations, and explainability techniques.
-          branches:
-            - label: Knowledge Graph Embeddings & Reasoning
-            - label: LLM Reasoning
-            - label: GraphRAG
-            - label: Concept Bottleneck Models
-            - label: Model Explainability & Interpretability
-
-        - name: World Models & Reinforcement Learning
-          icon: "🌍"
-          tone: lavender
-          description: Developing adaptive AI systems that learn representations of dynamic environments, reason across modalities, and improve decision-making through reinforcement learning.
-          branches:
-            - label: Multi-domain & Multi-modal World Modeling
-            - label: Applied Reinforcement Learning
-            - label: RL-Enhanced LLMs
-
-        - name: AI for Real-World Systems
-          icon: "🏙️"
-          tone: peach
-          description: "Bridging AI research and practical applications through intelligent modeling, prediction, and control of complex real-world systems, including smart cities and healthcare."
-          branches:
-            - label: Smart Cities
-              topics:
-                - Time-Series Modeling
-                - Intelligent Control
-            - label: AI for Healthcare
-              topics:
-                - Clinical NLP
-                - Graph-based EHR Analysis
-                - Early Warning System
-            - label: Real-Time AI
-              topics:
-                - Small Language Models
-                - Dynamic Graph Modeling
-                - Multi-Agent RL Control
+      image: media/research.jpg
+      image_alt: "Research areas: Reasoning & Explainable AI; World Models & Reinforcement Learning; and AI for Real-World Systems, with their associated subtopics."
 
   - block: people
     id: people

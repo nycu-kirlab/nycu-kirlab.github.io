@@ -1,0 +1,18 @@
+{{- $block := .wcBlock -}}
+<div class="research-image">
+  <div class="section-heading mb-4">
+    <h1>{{ $block.content.title }}</h1>
+  </div>
+
+  {{ with resources.Get $block.content.image }}
+    <a href="{{ .RelPermalink }}" target="_blank" rel="noopener" title="View full-size research diagram">
+      <img src="{{ .RelPermalink }}"
+           width="{{ .Width }}" height="{{ .Height }}"
+           class="img-fluid w-100"
+           alt="{{ $block.content.image_alt }}"
+           loading="lazy" decoding="async">
+    </a>
+  {{ else }}
+    {{ errorf "Research Area image not found in assets: %s" $block.content.image }}
+  {{ end }}
+</div>
