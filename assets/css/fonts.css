@@ -33,7 +33,7 @@ body :where(*:not(i, svg, svg *, .icon, .icon *)) {
   font-size: 18px !important;
 }
 
-/* Keep titles uniformly sized and bold across components and screen sizes. */
+/* Keep all secondary headings, titles, and branding at the standard text size. */
 h1,
 h2,
 h3,
@@ -51,7 +51,14 @@ h6,
 .section-subheading,
 .navbar-brand,
 #navbar-main .navbar-brand::after {
-  font-size: 40px !important;
+  font-size: 18px !important;
+  font-weight: 700 !important;
+}
+
+/* Only the five main homepage section headings use the larger size. */
+#home .hero-title,
+:is(#research, #people, #news, #contact) .section-heading h1 {
+  font-size: 36px !important;
   font-weight: 700 !important;
 }
 
@@ -74,46 +81,4 @@ h6,
 
 .people-widget .network-icon {
   justify-content: flex-start;
-}
-
-/* Let the larger site title wrap without covering mobile navigation controls. */
-@media (max-width: 991px) {
-  #navbar-main {
-    height: auto;
-    min-height: 70px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-  }
-
-  #navbar-main > .container-xl {
-    display: grid;
-    grid-template-columns: auto minmax(0, 1fr) auto;
-    align-items: center;
-    gap: 12px;
-  }
-
-  #navbar-main .navbar-brand-mobile-wrapper {
-    position: static;
-    min-width: 0;
-  }
-
-  #navbar-main .navbar-brand {
-    width: 100%;
-    white-space: normal;
-  }
-
-  #navbar-main .navbar-brand::after {
-    min-width: 0;
-    overflow-wrap: anywhere;
-  }
-
-  #navbar-main .navbar-brand img {
-    flex-shrink: 0;
-    width: 40px;
-    height: 40px;
-  }
-
-  #navbar-main .navbar-collapse {
-    top: 100%;
-  }
 }
