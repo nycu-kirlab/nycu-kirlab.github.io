@@ -28,7 +28,7 @@ sections:
     id: research
     content:
       title: Research Area
-      image: media/research.jpg
+      image: media/research.svg
       image_alt: "Research areas: Reasoning & Explainable AI; World Models & Reinforcement Learning; and AI for Real-World Systems, with their associated subtopics."
 
   - block: people

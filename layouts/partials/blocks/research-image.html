@@ -7,7 +7,7 @@
   {{ with resources.Get $block.content.image }}
     <a href="{{ .RelPermalink }}" target="_blank" rel="noopener" title="View full-size research diagram">
       <img src="{{ .RelPermalink }}"
-           width="{{ .Width }}" height="{{ .Height }}"
+           {{ if ne .MediaType.SubType "svg" }}width="{{ .Width }}" height="{{ .Height }}"{{ end }}
            class="img-fluid w-100"
            alt="{{ $block.content.image_alt }}"
            loading="lazy" decoding="async">
