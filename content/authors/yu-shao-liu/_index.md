@@ -5,7 +5,8 @@ first_name: Yu-Shao
 last_name: Liu
 
 superuser: false
-role: PhD Student <br> (Co-advised with Prof. Jiun-Long Huang)
+role: PhD Student
+role_note: "(Co-advised with Prof. Jiun-Long Huang)"
 
 organizations:
   - name: National Yang Ming Chiao Tung University

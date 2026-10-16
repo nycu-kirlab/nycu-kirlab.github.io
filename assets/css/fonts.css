@@ -69,6 +69,17 @@ h6,
   font-weight: inherit !important;
 }
 
+/* Give group headings and supporting role notes their own sizes. */
+.people-widget .people-group-title {
+  font-size: 28px !important;
+}
+
+.people-widget .people-role-note {
+  margin: -0.25rem 0 0.75rem;
+  font-size: 14px !important;
+  line-height: 1.5;
+}
+
 /* Align profile details and photos with the start of each group row. */
 .people-widget {
   text-align: left;
