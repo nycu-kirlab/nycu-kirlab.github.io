@@ -11,7 +11,6 @@ last_name: "Lin"
 # Website role
 superuser: false
 role: "Master Student"
-external_link: https://github.com/whgwhwfh
 
 # Affiliation
 organizations:
@@ -30,6 +29,9 @@ social:
   - icon: envelope
     icon_pack: fas
     link: mailto:chenweilin497@gmail.com
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/whgwhwfh
 
 email: chenweilin497@gmail.com
 

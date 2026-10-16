@@ -11,7 +11,6 @@ last_name: "Kuo"
 # Website role
 superuser: false
 role: "Master Student"
-external_link: https://github.com/ruccccc
 
 # Affiliation
 organizations:
@@ -30,6 +29,9 @@ social:
   - icon: envelope
     icon_pack: fas
     link: mailto:ruckuo@gmail.com
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/ruccccc
 
 email: ruckuo@gmail.com
 

@@ -6,7 +6,6 @@ last_name: Liu
 
 superuser: false
 role: PhD Student <br> (Co-advised with Prof. Jiun-Long Huang)
-external_link: https://github.com/AilurusUmbra
 
 organizations:
   - name: National Yang Ming Chiao Tung University
@@ -16,6 +15,9 @@ social:
   - icon: envelope
     icon_pack: fas
     link: mailto:ysl@cs.nycu.edu.tw
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/AilurusUmbra
 
 email: ysl@cs.nycu.edu.tw
 
