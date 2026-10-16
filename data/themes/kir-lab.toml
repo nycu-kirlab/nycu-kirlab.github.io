@@ -12,9 +12,9 @@ name = "KIR Lab"
   menu_text_active = "#0D766E"
   menu_title = "#17365D"
 
-  background = "#FFFFFF"
-  home_section_odd = "#FFFFFF"
-  home_section_even = "#F1F5F9"
+  background = "#F1F5F9"
+  home_section_odd = "#F1F5F9"
+  home_section_even = "#FFFFFF"
 
 [dark]
   primary = "#93C5FD"
