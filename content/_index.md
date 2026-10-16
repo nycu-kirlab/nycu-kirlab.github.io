@@ -16,8 +16,6 @@ sections:
 
         We investigate how intelligent systems can uncover hidden knowledge from complex data, understand relationships, and combine evidence to derive meaningful conclusions.
 
-        Our research brings together knowledge graphs, large language models, and reinforcement learning to develop reliable and interpretable AI methods for real-world applications.
-
         Department of Computer Science,
         National Yang Ming Chiao Tung University, Taiwan.
 
@@ -105,7 +103,7 @@ sections:
       text: |
         **NYCU KIR Lab**
 
-        **Location:** Room EC120, Guangfu Campus
+        **Location:** Room EC120, Engineering Building 3, Guangfu Campus
 
         **Address:** No. 1001, University Road,
         Hsinchu City 300093, Taiwan
