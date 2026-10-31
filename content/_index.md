@@ -52,7 +52,7 @@ sections:
       order: desc
       page_type: post
     design:
-      view: compact
+      view: news
       columns: '1'
 
 

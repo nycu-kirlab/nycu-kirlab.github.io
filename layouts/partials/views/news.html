@@ -1,0 +1,5 @@
+{{ $item := .item }}
+<div class="news-item">
+  <time class="news-date" datetime="{{ $item.Date.Format "2006-01-02" }}">{{ $item.Date.Format "Jan 02, 2006" }}</time>
+  <div class="news-text">{{ $item.Params.summary | markdownify }}</div>
+</div>

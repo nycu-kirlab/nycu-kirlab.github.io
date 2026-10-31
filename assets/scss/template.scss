@@ -1,3 +1,27 @@
+// News rows: date on the left, announcement on the right.
+.news-item {
+  display: grid;
+  grid-template-columns: 160px minmax(0, 1fr);
+  gap: 20px;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.news-date {
+  font-weight: 700;
+}
+
+.news-text p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 575px) {
+  .news-item {
+    grid-template-columns: 1fr;
+    gap: 0.25rem;
+  }
+}
+
 // Make page header alignment consistent with widget page header alignment
 .universal-wrapper h1 {
   text-align: center;
