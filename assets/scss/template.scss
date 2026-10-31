@@ -1,10 +1,24 @@
 // News rows: date on the left, announcement on the right.
 .news-item {
+  position: relative;
   display: grid;
   grid-template-columns: 160px minmax(0, 1fr);
   gap: 20px;
   margin-bottom: 1rem;
   font-size: 1rem;
+}
+
+// Extend the title link over its row without changing the surrounding text colors.
+.news-item .news-link::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+.news-item:focus-within {
+  outline: 2px solid currentColor;
+  outline-offset: 4px;
 }
 
 .news-date {
