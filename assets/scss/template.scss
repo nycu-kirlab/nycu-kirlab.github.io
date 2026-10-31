@@ -22,6 +22,90 @@
   }
 }
 
+// Full news announcement with an illustration and keyword links.
+.news-announcement {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.news-announcement-header {
+  display: grid;
+  grid-template-columns: 160px minmax(0, 1fr);
+  gap: 20px;
+  align-items: baseline;
+  margin-bottom: 1.5rem;
+}
+
+.news-announcement-date {
+  font-weight: 700;
+}
+
+.news-announcement-header h1 {
+  margin: 0;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.news-announcement-content {
+  display: flex;
+  gap: 1.5rem;
+  margin-left: 180px;
+  align-items: flex-start;
+}
+
+.news-announcement-figure {
+  flex: 0 0 38%;
+  margin: 0;
+}
+
+.news-announcement-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.news-announcement-details {
+  flex: 1;
+  min-width: 0;
+}
+
+.news-keywords {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 1.25rem;
+}
+
+.news-keywords a {
+  color: #225f9e;
+  border: 2px solid currentColor;
+  padding: 0.15rem 0.5rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+@media (max-width: 991px) {
+  .news-announcement-content {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .news-announcement-header {
+    grid-template-columns: 1fr;
+    gap: 0.25rem;
+  }
+
+  .news-announcement-content {
+    flex-direction: column;
+  }
+
+  .news-announcement-figure {
+    width: 100%;
+  }
+}
+
 // Make page header alignment consistent with widget page header alignment
 .universal-wrapper h1 {
   text-align: center;
