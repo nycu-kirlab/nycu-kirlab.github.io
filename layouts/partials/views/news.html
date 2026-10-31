@@ -1,11 +1,11 @@
 {{ $item := .item }}
+{{ if eq $item.Layout "announcement" }}
+  {{ partial "news-announcement" (dict "page" $item "inline" true) }}
+{{ else }}
 <div class="news-item">
   <time class="news-date" datetime="{{ $item.Date.Format "2006-01-02" }}">{{ $item.Date.Format "Jan 02, 2006" }}</time>
   <div class="news-text">
-    {{ if eq $item.Layout "announcement" }}
-      Our paper “<a class="news-link" href="{{ $item.RelPermalink }}">{{ $item.Title }}</a>” has been released on arXiv.
-    {{ else }}
-      {{ $item.Params.summary | markdownify }}
-    {{ end }}
+    {{ $item.Params.summary | markdownify }}
   </div>
 </div>
+{{ end }}

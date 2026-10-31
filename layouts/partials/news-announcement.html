@@ -1,0 +1,23 @@
+{{ $page := .page }}
+{{ $heading := cond .inline "h2" "h1" }}
+<article class="news-announcement{{ if .inline }} news-announcement--inline{{ else }} container{{ end }}">
+  <header class="news-announcement-header">
+    <time class="news-announcement-date" datetime="{{ $page.Date.Format "2006-01-02" }}">{{ $page.Date.Format "Jan 02, 2006" }}</time>
+    {{ printf "<%s>" $heading | safeHTML }}Our paper “<strong>{{ $page.Title }}</strong>” has been released on <a href="{{ $page.Params.paper_url }}">arXiv</a>.{{ printf "</%s>" $heading | safeHTML }}
+  </header>
+  <div class="news-announcement-content">
+    {{ with $page.Resources.GetMatch $page.Params.announcement_image }}
+    <figure class="news-announcement-figure">
+      <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="{{ $page.Params.announcement_image_alt }}" loading="lazy">
+    </figure>
+    {{ end }}
+    <div class="news-announcement-details">
+      <div class="article-style">{{ $page.Content }}</div>
+      {{ with $page.Params.tags }}
+      <div class="news-keywords" aria-label="Keywords">
+        {{ range . }}<span>{{ . }}</span>{{ end }}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</article>
