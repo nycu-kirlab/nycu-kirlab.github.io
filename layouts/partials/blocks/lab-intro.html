@@ -1,0 +1,16 @@
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+{{ with $block.content.title }}
+  <h1 class="hero-title">{{ . | markdownify }}</h1>
+{{ end }}
+<div class="lab-intro-content">
+  <div class="hero-lead">
+    {{ $block.content.text | $page.RenderString | emojify }}
+  </div>
+  {{ with resources.Get $block.content.image }}
+    {{ $image := .Resize "360x" }}
+    <figure class="lab-intro-photo">
+      <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ $block.content.image_alt }}" decoding="async">
+    </figure>
+  {{ end }}
+</div>

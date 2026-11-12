@@ -4,11 +4,13 @@ title:
 type: landing
 
 sections:
-  - block: hero
+  - block: lab-intro
     id: home
     content:
       title: |
         NYCU KIR Lab
+      image: media/smile.png
+      image_alt: A yellow smiling vase holding a white flower in the lab.
       text: |
         **Knowledge Inference, Reasoning and Discovery Laboratory**
 
